@@ -1,31 +1,8 @@
-# vue-markdown 打造自己的编辑器
+# vue-markdown 打造Vue的markdown编辑器组件
 
-## 初始化项目
 
-新建 vue-markdown 文件夹以及在它里面新建package.json以及README.md文件
 
-```bash
-mkdir vue-markdown
-cd vue-markdown 
-npm init -y
-echo "# Vue-markdown" > README.md
-```
-## 新建项目相关的几个文件夹
-新建 src public文件夹
-```lua
---- vue-markdown
-  --- public
-  --- src
-    --- assets
-    --- components
-  --- App.vue
-  --- main.js
-```
 
-## 安装相应的库
-> webpack webpack-cli
-
-[aaa](aa)
 
 compute 与 watch的区别
 >

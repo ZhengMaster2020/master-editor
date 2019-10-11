@@ -117,7 +117,7 @@
           </svg>
         </span>
 
-         <span class="fun-menu-btn">
+         <span class="fun-menu-btn" @click="fullScreen">
            <span class="menu-hover-tip">全屏</span>
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-zidongsuofangmoshi"></use>
@@ -163,6 +163,11 @@ export default {
   methods: {
     handleHtmlStr () {},
     handleMarkStr () {},
+
+    // 全屏展示
+    fullScreen () {
+      
+    },
 
     //给选中文字加粗
     addBold() {
@@ -214,8 +219,7 @@ export default {
 `|  表头   | 表头  |
 |  ----  | ----  |
 | 单元格  | 单元格 |
-| 单元格  | 单元格 |`,
-      '')
+| 单元格  | 单元格 |`,'')
     },
 
     // 添加代码块

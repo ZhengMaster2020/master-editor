@@ -1,15 +1,15 @@
 <template>
   <div class="app">
-    <VueMarkdown/>
+    <SelfMarkdown/>
   </div>
 </template>
 
 <script>
-import VueMarkdown from './components/VueMarkdown.vue'
+import SelfMarkdown from './components/self-markdown/index.js'
 export default {
   name: 'App',
   components: {
-    VueMarkdown
+    SelfMarkdown
   }
 }
 </script>
