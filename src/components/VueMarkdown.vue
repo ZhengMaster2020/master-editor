@@ -67,14 +67,14 @@
           </svg>
         </span>
 
-        <span class="fun-menu-btn">
+        <span class="fun-menu-btn" @click="addLink">
           <span class="menu-hover-tip">链接</span>
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-link"></use>
           </svg>
         </span>
 
-        <span class="fun-menu-btn">
+        <span class="fun-menu-btn" @click="addImg">
           <span class="menu-hover-tip">图片</span>
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-tupian"></use>
@@ -88,7 +88,7 @@
           </svg>
         </span>
 
-         <span class="fun-menu-btn">
+         <span class="fun-menu-btn" @click="addQuote">
            <span class="menu-hover-tip">引用</span>
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-youjiantou"></use>
@@ -192,6 +192,20 @@ export default {
     // 添加无需列表
     addUnorderList () {
       this.insertText('+ xxx', '')
+    },
+
+
+    // 添加链接
+    addLink () {
+      this.insertText("[link]('')", '')
+    },
+
+    // 添加图片
+    addImg(){},
+
+    // 添加引用
+    addQuote () {
+      this.insertText('>', '引用')
     },
 
     // 添加表格
