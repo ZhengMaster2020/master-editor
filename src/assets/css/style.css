@@ -47,7 +47,11 @@ color: #AAA;
 
 blockquote{
   margin-left: -5px;
-  padding: 5px;
+  padding: 2px 5px;
   border-left: 4px solid cadetblue;
   background-color: #fff;
+}
+blockquote > p {
+  margin: 2px;
+  min-height: 20px;
 }

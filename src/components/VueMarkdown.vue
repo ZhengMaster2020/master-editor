@@ -191,7 +191,7 @@ export default {
     addCode () {
       this.insertText( 
       '````javascript' + '\n' + 
-      'code area' + '\n' +
+      'write code area' + '\n' +
       '````'
       , '')
     },
