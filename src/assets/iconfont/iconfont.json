@@ -27,6 +27,13 @@
       "unicode_decimal": 58933
     },
     {
+      "icon_id": "6771992",
+      "name": "右箭头",
+      "font_class": "next-in",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
       "icon_id": "7130454",
       "name": "link",
       "font_class": "link",
@@ -34,11 +41,25 @@
       "unicode_decimal": 61344
     },
     {
+      "icon_id": "7184087",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
       "icon_id": "7397471",
       "name": "emjio_3",
       "font_class": "emjio_",
       "unicode": "e63c",
       "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "8396033",
+      "name": "右箭头",
+      "font_class": "youjiantou1",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
     },
     {
       "icon_id": "9800032",

@@ -60,7 +60,7 @@
           </svg>
         </span>
 
-        <span class="fun-menu-btn">
+        <span class="fun-menu-btn" @click="addTable">
           <span class="menu-hover-tip">表格</span>
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-charubiaoge"></use>
@@ -85,6 +85,13 @@
            <span class="menu-hover-tip">表情</span>
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-emjio_"></use>
+          </svg>
+        </span>
+
+         <span class="fun-menu-btn">
+           <span class="menu-hover-tip">引用</span>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-youjiantou"></use>
           </svg>
         </span>
       </div>
@@ -185,6 +192,16 @@ export default {
     // 添加无需列表
     addUnorderList () {
       this.insertText('+ xxx', '')
+    },
+
+    // 添加表格
+    addTable () {
+      this.insertText(
+`|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |`,
+      '')
     },
 
     // 添加代码块
