@@ -6,7 +6,7 @@ import store from './store.js'
 import './assets/iconfont/iconfont.js'
 import './assets/iconfont/iconfont.css'
 
-import 'highlight.js/styles/vs.css'
+import 'highlight.js/styles/github.css'
 import './assets/css/style.css'
 
 
