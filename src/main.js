@@ -6,7 +6,10 @@ import store from './store.js'
 import './assets/iconfont/iconfont.js'
 import './assets/iconfont/iconfont.css'
 
-import 'marked'
+import 'highlight.js/styles/vs.css'
+import './assets/css/style.css'
+
+
 
 new Vue({
   store,
