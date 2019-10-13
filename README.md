@@ -4,8 +4,9 @@
 
 
 ## 项目演示
-
+![img](./public/images/img.jpg)
 
 ## 项目技术栈
 
-![img](./public/images/img.jpg)
+ 技术文档编写中。。。
+
