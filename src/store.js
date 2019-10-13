@@ -3,11 +3,9 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const state = {
-  markString: `
-  # 一级标题
-  ## 二级标题
-  ### 三级标题`,
-  htmlString: ''
+  markString: `### 三级标题\n`,
+  htmlString: '',
+  mdEdit: 'md-edit'
 }
 
 const mutations = {
